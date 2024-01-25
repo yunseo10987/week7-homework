@@ -1,0 +1,79 @@
+main{
+    margin: 100px auto 0 auto;
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+#header_box{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+}
+#category_box{
+    box-sizing: border-box;
+    padding: 4px 6px;
+    border-radius: 6px;
+    background-color: #E0E0E0;
+    margin: 5px 4px 5px 0px;
+}
+#title_box{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.post_etc_box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+#detail_box{
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 10px;
+}
+#update_a{
+    display: inline;
+    font-size: 12px;
+}
+#delete_a{
+    display: inline;
+    font-size: 12px;
+}
+#content_box{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+#comment_box{
+    border-top: 1px solid black;
+}
+.new_comment_box{
+    display: flex;
+}
+.new_comment_area{
+    width: 100%;
+}
+.only_data{
+    display: none;
+}
+.comment_etc_box{
+    display: flex;
+    align-items: center;
+}
+.nickname_box{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+.date_box{
+    color: gray;
+}
+
+.comment_info_box{
+    display: flex;
+    justify-content: space-between;
+}
+.comment_option{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}

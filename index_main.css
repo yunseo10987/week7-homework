@@ -1,0 +1,33 @@
+main{
+    margin: 100px auto 0 auto;
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+#write_post{
+    display: flex;
+    justify-content: end;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+}
+.post_main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.category_box{
+    box-sizing: border-box;
+    padding: 4px 6px;
+    border-radius: 6px;
+    background-color: #E0E0E0;
+    margin: 5px 4px 5px 0px;
+}
+.post_detail{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 2px;
+}

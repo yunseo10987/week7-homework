@@ -1,0 +1,17 @@
+main{
+    margin: 100px auto 0 auto;
+    width: 950px;
+    box-sizing: border-box;
+}
+#category_box{
+    display: flex;
+    align-items: center;
+}
+#category_select{
+    width: 200px;
+    height: 20px;
+}
+#content_box{
+    width: 950px;
+    height: 500px;
+}
